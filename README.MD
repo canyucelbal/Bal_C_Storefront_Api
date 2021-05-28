@@ -1,22 +1,32 @@
-### Bikestore Backend API
+#### Bikestore Backend API
 
-    Backend API source code for bikestore
+- Backend API source code for bikestore
 
-### System Setup
+#### Database Configuration
 
-    In order to start server, change content of the ```./config/.env``` file
+- `init.sql` file is executed to seed the database before server starts.
 
-    ```DB_USERNAME```
-    ```DB_PASSWORD```
-    ```DB_NAME```
-    ```DB_HOST```
+- Any kind of change to `init.sql` will be reflected.
 
-    ```DEFAULT_PORT```
+#### System Setup
 
-    After setting fields above, run
+- In order to start server, change content of the `./config/.env` file
 
-    ```npm install```
+  - `DB_USERNAME`
+  - `DB_PASSWORD`
+  - `DB_NAME`
+  - `DB_HOST`
 
-    ```npm run dev```
+  - `DEFAULT_PORT`
 
-    API will be listening on the port ```DEFAULT_PORT```
+- After setting fields above, run
+
+  - `npm install`
+
+  - `npm run dev`
+
+- API will be listening on the port `DEFAULT_PORT`
+
+#### Author
+
+- [@canyucelbal](https://github.com/canyucelbal)
